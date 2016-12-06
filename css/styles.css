@@ -537,6 +537,7 @@ img::-moz-selection {
     color: red;
     font-size: 2em;
 }
+
 .timer{
     border: 1px solid #fff;
     text-align: center;

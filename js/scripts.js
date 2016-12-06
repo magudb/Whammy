@@ -18,8 +18,7 @@ function onYouTubeIframeAPIReady() {
             'onReady': onPlayerReady
         }
     });
-}
-
+} 
 var startTimer = function (duration) {
     var timer = duration;
 
@@ -46,7 +45,7 @@ var startTimer = function (duration) {
 var onPlayerReady = function () {
     player.mute()
     player.stopVideo();
-    startTimer(10);
+    startTimer(5);
 };
 
 (function ($) {
