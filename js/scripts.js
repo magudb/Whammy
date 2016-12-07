@@ -42,6 +42,7 @@ var startTimer = function (duration) {
 
     }, 1000);
 };
+
 var onPlayerReady = function () {
     player.mute()
     player.stopVideo();
